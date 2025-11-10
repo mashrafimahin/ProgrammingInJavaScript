@@ -1,30 +1,18 @@
-/*
- ! Problem: Remove duplicate characters.
-
- ? Proccess:
-    * empty variables
-    * run loop and match if the value is in store or not
-    * return statement
-*/
-
-// main function
-function myFunc(value) {
-    // empty variable
-    let result = '';
-
-    // loop 
-    for (let i = 0; i < value.length; i++) {
-        if (!result.includes(value[i])) {
-            result += value[i];
-        }
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function (nums) {
+  // result
+  const arr = [];
+  // loop
+  for (let i = 0; i < nums.length; i++) {
+    if (!arr.includes(nums[i])) {
+      arr.push(nums[i]);
     }
+  }
+  // output
+  return arr;
+};
 
-    // return 
-    return result;
-}
-
-// print the values
-const str = 'aba';
-
-myFunc(str)
-// output: 'ab'
+removeDuplicates([1, 1, 2, 2, 3, 3]);
