@@ -124,10 +124,10 @@ console.log("All tests passed!");
 
 | Difficulty | Problems Solved | Total |
 | ---------- | --------------- | ----- |
-| Easy       | 1               | -     |
+| Easy       | 4               | -     |
 | Medium     | 0               | -     |
 | Hard       | 0               | -     |
-| **Total**  | **1**           | -     |
+| **Total**  | **4**           | -     |
 
 ## 🎨 Code Style
 
