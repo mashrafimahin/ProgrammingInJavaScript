@@ -2,8 +2,6 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e.svg)
 ![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-blue.svg)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 A comprehensive collection of JavaScript solutions for LeetCode problems, organized by difficulty level and algorithmic concepts.
 
@@ -15,15 +13,15 @@ This repository contains my personal collection of JavaScript solutions for vari
 
 ```
 Javascript/
-├── README.md              # This file
-├── Easy/                  # Easy difficulty problems
-│   ├── Counter.js         # Counter implementation
+├── README.md
+├── Easy/
+│   ├── Counter.js
 │   └── [More easy problems...]
-├── Medium/                # Medium difficulty problems
+├── Medium/
 │   └── [Medium problems...]
-├── Hard/                  # Hard difficulty problems
+├── Hard/
 │   └── [Hard problems...]
-└── utils/                 # Utility functions and helpers
+└── utils/
     └── [Helper functions...]
 ```
 
@@ -63,15 +61,9 @@ Or use the browser console by opening the HTML files (if provided).
 
 ### Easy Level
 
-- [Easy problems...]
-
 ### Medium Level
 
-- [Medium problems...]
-
 ### Hard Level
-
-- [Hard problems...]
 
 ## 🎯 Example: Counter Problem
 
@@ -122,12 +114,12 @@ console.log("All tests passed!");
 
 ## 📈 Progress Tracking
 
-| Difficulty | Problems Solved | Total |
-| ---------- | --------------- | ----- |
-| Easy       | 4               | -     |
-| Medium     | 0               | -     |
-| Hard       | 0               | -     |
-| **Total**  | **4**           | -     |
+| Difficulty | Problems Solved |
+| ---------- | --------------- |
+| Easy       | 12              |
+| Medium     | 0               |
+| Hard       | 0               |
+| **Total**  | **12**          |
 
 ## 🎨 Code Style
 
