@@ -18,12 +18,9 @@
  */
 var chunk = function (arr, size) {
   let result = [];
-  let s = size;
 
-  for (let i = 0; i < arr.length; i++) {
-    result.push(arr.slice(i, s));
-    i += size - 1;
-    s += size;
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
   }
 
   return result;
@@ -31,5 +28,5 @@ var chunk = function (arr, size) {
 
 //! Testcases:
 const input = [1, 2, 3, 4, 5, 6];
-const scale = 2;
+const scale = 4;
 console.log(chunk(input, scale));
