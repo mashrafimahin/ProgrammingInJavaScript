@@ -1,0 +1,35 @@
+//! Problem: Chunk Array/LeetCode(2677)
+
+//? Description:
+//* Given an array arr and a chunk size size, return a chunked array.
+//* A chunked array contains the original elements in arr, but consists of subarrays each of length size. The length of the last subarray may be less than size if arr.length is not evenly divisible by size.
+//* Please solve it without using lodash's _.chunk function.
+
+//? Example:
+//* Input: arr = [1,2,3,4,5], size = 1
+//* Output: [[1],[2],[3],[4],[5]]
+//* Explanation: The arr has been split into subarrays each with 1 element.
+
+//! Solution:
+/**
+ * @param {Array} arr
+ * @param {number} size
+ * @return {Array}
+ */
+var chunk = function (arr, size) {
+  let result = [];
+  let s = size;
+
+  for (let i = 0; i < arr.length; i++) {
+    result.push(arr.slice(i, s));
+    i += size - 1;
+    s += size;
+  }
+
+  return result;
+};
+
+//! Testcases:
+const input = [1, 2, 3, 4, 5, 6];
+const scale = 2;
+console.log(chunk(input, scale));
