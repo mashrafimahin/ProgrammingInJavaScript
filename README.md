@@ -57,14 +57,6 @@ node Easy/Counter.js
 
 Or use the browser console by opening the HTML files (if provided).
 
-## 📊 Problem Categories
-
-### Easy Level
-
-### Medium Level
-
-### Hard Level
-
 ## 🎯 Example: Counter Problem
 
 ### Problem Statement
@@ -116,10 +108,10 @@ console.log("All tests passed!");
 
 | Difficulty | Problems Solved |
 | ---------- | --------------- |
-| Easy       | 12              |
+| Easy       | 22              |
 | Medium     | 0               |
 | Hard       | 0               |
-| **Total**  | **12**          |
+| **Total**  | **22**          |
 
 ## 🎨 Code Style
 
