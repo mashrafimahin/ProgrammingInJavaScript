@@ -108,8 +108,8 @@ console.log("All tests passed!");
 
 | Difficulty | Problems Solved |
 | ---------- | --------------- |
-| Easy       | 26              |
-| Medium     | 0               |
+| Easy       | 23              |
+| Medium     | 03              |
 | Hard       | 0               |
 | **Total**  | **26**          |
 
