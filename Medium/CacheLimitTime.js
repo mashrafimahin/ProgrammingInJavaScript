@@ -23,41 +23,26 @@
 
 //! Solution:
 class TimeLimitedCache {
-  // empty obj
   constructor() {
-    this.data = new Map();
+    this.cache = new Map();
   }
 
-  /**
-   * @param {number} key
-   * @param {number} value
-   * @param {number} duration time until expiration in ms
-   * @return {boolean} if un-expired key already existed
-   */
   set(key, value, duration) {
-    if (this.data.has(key)) {
-      clearTimeout(this.data.get(key).ref);
-    }
-    this.data.set(key, {
-      value,
-      ref: setTimeout(() => this.data.delete(key), duration),
+    let found = this.cache.has(key);
+    if (found) clearTimeout(this.cache.get(key).ref); // Cancel previous timeout
+    this.cache.set(key, {
+      value, // Equivalent to `value: value`
+      ref: setTimeout(() => this.cache.delete(key), duration),
     });
-    return this.data.has(key);
+    return found;
   }
 
-  /**
-   * @param {number} key
-   * @return {number} value associated with key
-   */
   get(key) {
-    return this.data.has(key) ? this.data.get(key).value : -1;
+    return this.cache.has(key) ? this.cache.get(key).value : -1;
   }
 
-  /**
-   * @return {number} count of non-expired keys
-   */
   count() {
-    return this.data.size;
+    return this.cache.size;
   }
 }
 
