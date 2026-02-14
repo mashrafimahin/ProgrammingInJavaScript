@@ -109,9 +109,9 @@ console.log("All tests passed!");
 | Difficulty | Problems Solved |
 | ---------- | --------------- |
 | Easy       | 23              |
-| Medium     | 03              |
+| Medium     | 07              |
 | Hard       | 0               |
-| **Total**  | **26**          |
+| **Total**  | **30**          |
 
 ## 🎨 Code Style
 
