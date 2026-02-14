@@ -1,9 +1,31 @@
-# JavaScript LeetCode Problem Solving
+# 🚀 JavaScript LeetCode Problem Solving
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e.svg)
-![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-blue.svg)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-f7df1e.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-blue.svg)](https://leetcode.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-12+-green.svg)](https://nodejs.org/)
 
-A comprehensive collection of JavaScript solutions for LeetCode problems, organized by difficulty level and algorithmic concepts.
+> A comprehensive collection of JavaScript solutions for LeetCode problems, organized by difficulty level and algorithmic concepts.
+
+![Code Stats](https://img.shields.io/badge/Problems-30+-brightgreen.svg)
+![Code Stats](https://img.shields.io/badge/Easy-23-blue.svg)
+![Code Stats](https://img.shields.io/badge/Medium-07-orange.svg)
+![Code Stats](https://img.shields.io/badge/Hard-00-red.svg)
+
+## 📋 Table of Contents
+
+- [📖 Project Overview](#-project-overview)
+- [🏗️ Project Structure](#️-project-structure)
+- [🚀 Quick Start](#-quick-start)
+- [🎯 Example Solutions](#-example-solutions)
+- [🧪 Testing](#-testing)
+- [📈 Progress Tracking](#-progress-tracking)
+- [🎨 Code Style](#-code-style)
+- [🤝 Contributing](#-contributing)
+- [📚 Resources](#-resources)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📄 License](#-license)
+- [📞 Contact](#-contact)
 
 ## 📖 Project Overview
 
@@ -144,12 +166,77 @@ While this is a personal project, here are some guidelines if you'd like to cont
 - The JavaScript community for continuous learning resources
 - All contributors to open-source algorithms and data structures
 
+## 📄 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License - see below for details:
+
+```text
+MIT License
+
+Copyright (c) 2026 MashrafiMahin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### 🛡️ What This Means
+
+- ✅ **Freedom to Use**: Use this code in personal and commercial projects
+- ✅ **Freedom to Modify**: Change and adapt the code as needed
+- ✅ **Freedom to Distribute**: Share your modified versions
+- ✅ **No Warranty**: The software is provided "as is" without any guarantees
+- ✅ **Attribution Required**: Keep the copyright notice in all copies
+
 ## 📞 Contact
 
-**Mahin Mashrafi** - [GitHub Profile](https://github.com/mashrafimahin)
+**Mashrafi Mahin** - [GitHub Profile](https://github.com/mashrafimahin)
+
+📧 **Email**: [support@mail.com](mailto:mashrafi.devs@gmail.com)  
+🔗 **Portfolio**: [mahiin.app](https://mahiin.netlify.app)
 
 If you have any questions or suggestions, feel free to open an issue or reach out!
 
 ---
 
+## 🎯 Quick Navigation
+
+| Section                         | Description                            |
+| ------------------------------- | -------------------------------------- |
+| [Examples](#-example-solutions) | View sample solutions and explanations |
+| [Progress](#-progress-tracking) | Track solved problems by difficulty    |
+| [License](#-license)            | View licensing information             |
+| [Resources](#-resources)        | Helpful links and documentation        |
+
+---
+
+## 🌟 Features
+
+- ✨ **Clean & Modern**: Beautifully formatted with emojis and badges
+- 📊 **Progress Tracking**: Visual progress indicators for problem solving
+- 🧪 **Tested Code**: All solutions include comprehensive test cases
+- 📚 **Well Documented**: Detailed explanations and complexity analysis
+- 🚀 **Easy to Use**: Simple setup and execution instructions
+
+---
+
 **Happy Coding!** 🚀
+
+[![GitHub Stars](https://img.shields.io/github/stars/mashrafimahin/ProgrammingInJavaScript?style=social)](https://github.com/mashrafimahin/ProgrammingInJavaScript/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mashrafimahin/ProgrammingInJavaScript?style=social)](https://github.com/mashrafimahin/ProgrammingInJavaScript/network/members)
