@@ -131,8 +131,8 @@ console.log("All tests passed!");
 | Difficulty | Problems Solved |
 | ---------- | --------------- |
 | Easy       | 23              |
-| Medium     | 08              |
-| Hard       | 0               |
+| Medium     | 07              |
+| Hard       | 01              |
 | **Total**  | **31**          |
 
 ## 🎨 Code Style
